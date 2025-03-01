@@ -70,3 +70,7 @@ section {
     background-color: #004F4D;
     margin: 0;
 }
+
+h2 {
+ align-items: center;
+}
