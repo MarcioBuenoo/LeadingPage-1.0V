@@ -1,0 +1,111 @@
+/* Font Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Stylesheet CSS */
+
+body {
+    background-color: #4B4952;
+    align-items: center;
+}
+
+section {
+    background-color: #1F2024;
+    box-shadow: 0px 4px 0px rgb(0, 0, 0, 0.1);
+    margin-top: 2vh;
+    position: absolute; left: 0;
+    width: 98%;
+    border-top-right-radius: 40px;                  
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh 0 0 0 ;
+}
+
+.container__imagem {
+    width: 278px;
+    height: 408px;
+    padding: 0 30px 0 0 ;
+}
+
+.container__texto h1 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: 0;
+    font-size: 36px;
+}
+
+.container__texto__descricao {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 0;
+    
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.tools p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+.tools img {
+    height: 60px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.linha {
+    border: none;
+    height: 3px;
+    background-color: #004F4D;
+    margin: 0;
+}
+
+h2 {
+ align-items: center;
+}
+
+.rodape {
+    margin: 20%;
+    text-align: center;
+}
+
+.rodape__links {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.rodape__links__link a {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+}
+
+.rodape__links__link a img {
+    margin-right: 10%;
+}
+
+.rodape__texto {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 4vh;
+}
