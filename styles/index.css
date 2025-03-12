@@ -116,3 +116,12 @@ h2 {
         flex-direction: column;
     }
 }
+
+@media (max-width: 720px) {
+    .container {
+        padding: 5vh;
+    }
+    .container__texto h1 {
+        font-size: 2em;
+    }
+}
